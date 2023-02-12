@@ -3,7 +3,7 @@ import Logo from "../../assets/netflix-logo.png";
 
 const Header = () => {
 	return (
-		<div className="bg-gradient-to-b from-black/50 to-transparent p-4 px-44 flex flex-row items-center justify-between">
+		<div className="bg-gradient-to-b from-black/90 to-black/30 p-4 px-44 flex flex-row items-center justify-between">
 			<img src={Logo} alt="Netflix Logo" className="w-40" />
 			<div className="flex flex-row items-center">
 				<select className="m-2 mr-3 rounded-md p-2 w-52 text-white bg-slate-700/75">
