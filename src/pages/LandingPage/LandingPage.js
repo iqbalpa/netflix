@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import Main from "../../components/Main/Main";
+import Header from "../../layouts/Header/Header";
+import Main from "../../layouts/Main/Main";
 import Section from "../../components/Section/Section";
+import Faq from "../../layouts/Faq/Faq";
 
 const LandingPage = () => {
 	const sectionData = [
@@ -40,6 +41,7 @@ const LandingPage = () => {
 					<Section key={index} text1={section.text1} text2={section.text2} image={section.image} imageRight={section.imageRight} />
 				))}
 				<div className="h-2 bg-gray-800"></div>
+				<Faq />
 			</div>
 		</>
 	);
