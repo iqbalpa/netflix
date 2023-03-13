@@ -42,6 +42,7 @@ const LandingPage = () => {
 				))}
 				<div className="h-2 bg-gray-800"></div>
 				<Faq />
+				<div className="h-2 bg-gray-800"></div>
 			</div>
 		</>
 	);

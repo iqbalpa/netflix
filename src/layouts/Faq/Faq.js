@@ -31,11 +31,18 @@ const Faq = () => {
 
 	return (
 		<>
-			<div className="bg-black h-full py-20 px-52 text-white ">
+			<div className="bg-black h-full py-10 px-52 text-white ">
 				<h1 className="text-5xl text-center font-extrabold mb-6">Frequently Asked Questions</h1>
 				{qna.map((item, index) => (
 					<Qna key={index} question={item.question} answer={item.answer} />
 				))}
+			</div>
+			<div className="flex flex-col justify-center items-center pb-20 bg-black h-full">
+				<h2 className="text-white text-xl mb-2">Ready to watch? Enter your email to create or restart your membership</h2>
+				<div className="flex flex-row">
+					<input type="email" placeholder="Email address" className="bg-slate-700/75 p-4 w-96 border-[1px] border-gray-300 border-r-0 rounded-l-md" />
+					<button className="text-3xl bg-red-500 hover:bg-red-600 duration-150 border-[1px] border-gray-300 border-l-0 p-4 rounded-r-md w-56 ">Get Started {">"}</button>
+				</div>
 			</div>
 		</>
 	);
