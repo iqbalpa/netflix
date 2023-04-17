@@ -3,6 +3,7 @@ import Header from "../../layouts/Header/Header";
 import Main from "../../layouts/Main/Main";
 import Section from "../../components/Section/Section";
 import Faq from "../../layouts/Faq/Faq";
+import Footer from "../../layouts/Footer/Footer";
 
 const LandingPage = () => {
 	const sectionData = [
@@ -43,6 +44,7 @@ const LandingPage = () => {
 				<div className="h-2 bg-gray-800"></div>
 				<Faq />
 				<div className="h-2 bg-gray-800"></div>
+				<Footer />
 			</div>
 		</>
 	);
