@@ -8,7 +8,9 @@ const Header = () => {
 			<img src={Logo} alt="Netflix Logo" className="w-40" />
 			<div className="flex flex-row items-center">
 				<LanguageDropdown />
-				<button className="bg-red-500 ml-3 hover:bg-red-600 duration-150 rounded-md text-white px-5 py-2">Sign In</button>
+				<a href="/signin">
+					<button className="bg-red-500 ml-3 hover:bg-red-600 duration-150 rounded-md text-white px-5 py-2">Sign In</button>
+				</a>
 			</div>
 		</div>
 	);
