@@ -1,9 +1,32 @@
 import React from "react";
+import Logo from "../../assets/netflix-logo.png";
 
 const SignIn = () => {
 	return (
 		<>
-			<h1>This is sign in page</h1>
+			{/* <div className="absolute top-0 left-0 z-10 h-screen w-screen bg-black/30"></div> */}
+			<div className="bg-landing-page h-screen w-screen p-10">
+				<img src={Logo} alt="Netflix Logo" className="w-40" />
+				<div className="flex flex-col justify-center items-center">
+					<div className="w-[30rem] h-[40rem] bg-black/70 text-white rounded-lg py-10 px-20">
+						<h1 className="text-3xl font-bold mb-7 mt-10">Sign In</h1>
+						<form className="flex flex-col">
+							<input placeholder="Email or Phone Number" type="email" name="email" id="email" className="h-12 mb-5 px-4 py-2 rounded-lg bg-gray-600" />
+							<input placeholder="Password" type="password" name="password" id="password" className="h-12 mb-5 px-4 py-2 rounded-lg bg-gray-600" />
+							<button className="h-12 bg-red-600 hover:bg-red-800 font-bold text-white p-2 rounded-lg">Sign In</button>
+							<div className="flex flex-row justify-between mt-4">
+								<div className="flex flex-row items-center">
+									<input type="checkbox" name="remember" id="remember" className="" />
+									<label htmlFor="remember" className="ml-2">
+										Remember me
+									</label>
+								</div>
+								<p>Need Help?</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 };
