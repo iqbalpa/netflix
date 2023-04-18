@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/netflix-logo.png";
+import Footer from "../../layouts/Footer/Footer";
 
 const SignIn = () => {
 	return (
@@ -41,6 +42,7 @@ const SignIn = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };
