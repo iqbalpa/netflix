@@ -42,7 +42,9 @@ const SignIn = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<div className="h-full w-screen bg-black">
+				<Footer />
+			</div>
 		</>
 	);
 };
