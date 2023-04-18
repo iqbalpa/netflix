@@ -21,9 +21,23 @@ const SignIn = () => {
 										Remember me
 									</label>
 								</div>
-								<p>Need Help?</p>
+								<p className="hover:underline">Need Help?</p>
 							</div>
 						</form>
+						<div className="mt-16 text-gray-400">
+							<p className="text-lg">
+								New to Netflix?
+								<a href="/" className="hover:underline text-white ml-3">
+									Sign Up now
+								</a>
+							</p>
+							<p className="text-sm mt-3">
+								This page is protected by Google reCAPTCHA to ensure you're not a bot.
+								<a href="/" className="text-blue-500 hover:underline">
+									&nbsp;Learn more.
+								</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
